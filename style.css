@@ -23,3 +23,44 @@
     border: 1px solid black;
     padding: 5px;
 }
+
+.lower-row {
+    display: flex;
+    border: 1px solid black;
+    
+}
+
+.lower-left {
+    border: 1px solid black;
+    padding: 5px;
+    width: 30%;
+}
+
+.lower-right {
+    border: 1px solid black;
+    padding: 5px;
+    flex-direction: column;
+    margin: 0px;
+    width: 100%;
+    
+}
+
+.lr1 {
+    background-color: aliceblue;
+}
+
+.lr2 {
+    background-color: aquamarine;
+}
+
+.lr3 {
+    background-color: aqua;
+}
+
+.lr4 {
+    background-color: beige;
+}
+
+.lr5 {
+    background-color: blanchedalmond;
+}
