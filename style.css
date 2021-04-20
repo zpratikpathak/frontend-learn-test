@@ -1,66 +1,14 @@
-.heading {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.main-head {
+    font-size: 50px;
     text-align: center;
-}
-
-.upper-row {
-    display: flex;
-    border: 1px solid black;
+    font-weight: normal;
+    font-family: 'Architects Daughter', cursive;
+    text-transform: uppercase;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    margin: 50px 0; /* 50px means top,bottom 50px and 0 means left and right*/
     
-}
-
-.left-box {
-    border: 1px solid black;
-    padding: 5px;
-}
-
-.middle-box {
-    border: 1px solid black;
-    padding: 5px;
-}
-
-.right-box {
-    border: 1px solid black;
-    padding: 5px;
-}
-
-.lower-row {
-    display: flex;
-    border: 1px solid black;
-    
-}
-
-.lower-left {
-    border: 1px solid black;
-    padding: 5px;
-    width: 30%;
-}
-
-.lower-right {
-    border: 1px solid black;
-    padding: 5px;
-    flex-direction: column;
-    margin: 0px;
-    width: 100%;
-    
-}
-
-.lr1 {
-    background-color: aliceblue;
-}
-
-.lr2 {
-    background-color: aquamarine;
-}
-
-.lr3 {
-    background-color: aqua;
-}
-
-.lr4 {
-    background-color: beige;
-}
-
-.lr5 {
-    background-color: blanchedalmond;
+    /* Alternate 3
+    margin: 50px 0 50px 0; North East South West
+    */
 }
