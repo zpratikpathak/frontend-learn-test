@@ -12,3 +12,80 @@
     margin: 50px 0 50px 0; North East South West
     */
 }
+
+.row {
+    display: flex;
+    align-items: stretch; 
+    /* To make it same height */
+}
+
+.story-image {
+    width: 100%;
+}
+
+.story {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+.story-title {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.story-text {
+    line-height: 1.5;
+    /* to give space between the lines */
+}
+
+.quarter {
+    width: 30%;
+}
+
+.half {
+    width: 50%;
+}
+
+.three-quarter {
+    width: 80%;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-items {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 30px;
+    color: #555;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-items a {
+    text-decoration: none;
+    /* Dcoration like underline, italic, etc */
+    color: #555;
+    /* to change the default color */
+
+}
+
+.nav-items a:hover {
+    text-decoration: underline  ;
+}
+
+.nav-items:nth-child(1) {background-color: antiquewhite;}
+.nav-items:nth-child(2) {background-color: rgb(155, 109, 49);}
+.nav-items:nth-child(3) {background-color: rgb(248, 156, 36);}
+.nav-items:nth-child(4) {background-color: rgb(89, 141, 92);}
+.nav-items:nth-child(5) {background-color: rgb(148, 201, 26);}
